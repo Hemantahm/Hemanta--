@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #000, #111);
+  color: #0ff;
+  font-family: 'Arial', sans-serif;
+}
+
+.game-container {
+  text-align: center;
+}
+
+canvas {
+  border: 2px solid #0ff;
+  background: radial-gradient(circle, #222, #000);
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  background: #0ff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #00d4ff;
+}
